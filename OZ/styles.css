@@ -1,6 +1,58 @@
-p{
-    color: blue;
+.mainBoard{
+    border: 5px solid purple;
+    background-color:  black;
+    height: 800px;
+    width: 400px;
+    position: absolute;
 }
+.board{
+    display: grid;
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+
+.spots{
+    display: grid;
+    height:  100%;
+    width:  20%;
+    float:  right;
+    margin-top: 0px;
+}
+
+.answerSection{
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(1, 50px);
+  width: 200px;
+  height: 50px;
+  border: 5px solid black;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.hiddenAnswer{
+  width: 30px;
+	height: 30px;
+	background-color: black;
+	margin-top: 7px;
+  margin-right: 10px;
+	float: right;
+	border-radius: 50%;
+	border: solid 2px black;
+}
+
+#demo{
+  color: black;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.info{
+  margin-left: 100px;
+}
+
+/*
 #topBox{
   align-content: center;
   position: relative;
@@ -46,38 +98,4 @@ p{
   display: inline-block;
 }
 
-#row2{
-    
-}
-
-#row3{
-    
-}
-
-#row4{
-    
-}
-
-#row5{
-    
-}
-
-#row6{
-    
-}
-
-#row7{
-    
-}
-
-#row8{
-    
-}
-
-#row9{
-    
-}
-
-#row10{
-    
-}
+*/
