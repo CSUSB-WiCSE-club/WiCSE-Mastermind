@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang = "en-US">  
     <head>
-        <title>  MasterMind Project</title>
+        <title>  MasterMind Project </title>
         <div id = "topBox">
             <h1 id = "topBar"><abbr title = "Women in Compute Science and Engineering">WiCSE's</abbr> Mastermind Project</h1>
         </div>
         <link rel="stylesheet" href="styles.css">
-        
     </head>
 
-    
-
     <body>
-        <h1 id="demo">show result</h1>
         <div class = "container">
             <div class = "mainBoard">
-                <div class = "board"></div>
-                <div class = "spots"></div>
+                <div class = "board">
+                    <div class = "spot" id = "sr1"></div>
+                    <div class = "spot" id = "sr2"></div>
+                    <div class = "spot" id = "sr3"></div>
+                    <div class = "spot" id = "sr4"></div>
+                </div>
+                <div class = "response">
+                    <div class = "resp" id = "r1"></div>
+                    <div class = "resp" id = "r2"></div>
+                    <div class = "resp" id = "r3"></div>
+                    <div class = "resp" id = "r4"></div>
+                </div>
             </div>
             <div class = "info">
                 <div class = "answerSection">
@@ -25,18 +31,9 @@
                     <div class = "hiddenAnswer" id = "hiddenAnswer3"></div>
                     <div class = "hiddenAnswer" id = "hiddenAnswer4"></div>
                 </div>
-            </div>  
+            </div>
+            <button class="button button1" id = "buttonID">Submit</button> 
         </div>
-
-        <!--
-        <h1>This is a Heading</h1>
-        <p>This is a paragraph.</p>
-        
-            <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-            <a href="https://www.w3schools.com">Visit W3Schools</a>
-
-        -->>
-
         
         <script src="move.js"></script>
     </body>
